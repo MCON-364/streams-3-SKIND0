@@ -1,5 +1,7 @@
 package edu.touro.las.mcon364.streams.ds;
 
+import edu.touro.las.mcon364.streams.exercises.Status;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.NoSuchFileException;
@@ -31,14 +33,12 @@ public class WeatherDataScienceExercise {
         System.out.println("Total raw rows (excluding header): " + (rows.size() - 1));
         System.out.println("Total cleaned rows: " + cleaned.size());
 
-        // TODO 1:
-        // Count how many valid weather records remain after cleaning.
+        // TODO 1: Count how many valid weather records remain after cleaning.
 
         // TODO 2:
         // Compute the average temperature across all valid rows.
 
-        // TODO 3:
-        // Find the city with the highest average temperature.
+        // TODO 3: Find the city with the highest average temperature.
 
         // TODO 4:
         // Group records by city.
