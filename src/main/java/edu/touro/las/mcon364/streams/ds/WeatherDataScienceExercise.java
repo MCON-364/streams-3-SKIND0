@@ -119,8 +119,8 @@ public class WeatherDataScienceExercise {
         // - temperature is between -60 and 60
         // - humidity is between 0 and 100
         // - precipitation is >= 0
-        return r.temperatureC() >= 60 && r.temperatureC() <= 60
-                && r.humidity() >= 0 && r.humidity <=100 && r.precipitationMm() >= 0;
+        return r.temperatureC() >= -60 && r.temperatureC() <= 60
+                && r.humidity() >= 0 && r.humidity() <= 100 && r.precipitationMm() >= 0;
 
         //throw new UnsupportedOperationException("TODO: implement isValid");
     }
